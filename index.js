@@ -12,5 +12,5 @@ app.use("/", router);
 
 
 app.listen(process.env.RUNNING_PORT, () => {
-    console.log("App Is Listen On 3000")
+    console.log(`App Is Listen On ${process.env.RUNNING_PORT}`)
 })
